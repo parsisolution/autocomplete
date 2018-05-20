@@ -1,0 +1,51 @@
+{
+  "name": "autocomplete2",
+  "version": "1.0.0",
+  "description": "Utilities for suggesting and autocompleting text in autosuggest and autocomplete components",
+  "main": "dist/Autocomplete.js",
+  "files": [
+    "src",
+    "dist",
+    "tests"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --hide-modules",
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsisolution/autocomplete.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "autosuggest",
+    "text",
+    "utility",
+    "complete",
+    "suggest",
+    "replace"
+  ],
+  "author": "Hamed Ehtesham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsisolution/autocomplete/issues"
+  },
+  "homepage": "https://github.com/parsisolution/autocomplete#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "template-banner-webpack-plugin": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^3.10.0"
+  }
+}
